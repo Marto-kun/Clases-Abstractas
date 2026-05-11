@@ -8,7 +8,8 @@ public class Automovil extends Vehiculo {
     public Automovil(int numeroRuedas, String marca, int numeroPuertas,
                      String color, double torque, double rendimiento) {
 
-        super("Gasolina", numeroRuedas, marca, numeroPuertas, 5, torque);
+        super("Gasolina", numeroRuedas, marca, numeroPuertas,
+                5, torque, "Automovil");
         this.color = color;
         this.rendimiento = rendimiento;
     }

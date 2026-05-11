@@ -3,7 +3,8 @@ public class Camion extends Vehiculo {
     private double tonelaje;
 
     public Camion(int numeroRuedas, String marca, double torque, double tonelaje) {
-        super("Diesel", numeroRuedas, marca, 2, 3, torque);
+        super("Diesel", numeroRuedas, marca, 2,
+                3, torque, "Camion");
         this.tonelaje = tonelaje;
     }
 

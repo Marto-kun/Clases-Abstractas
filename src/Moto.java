@@ -4,7 +4,8 @@ public class Moto extends Vehiculo {
     private double cilindraje;
 
     public Moto(String marca, int numeroPasajeros, double torque, double cilindraje) {
-        super("Gasolina", 2, marca, 0, numeroPasajeros, torque);
+        super("Gasolina", 2, marca, 0,
+                numeroPasajeros, torque, "Moto");
         this.cilindraje = cilindraje;
     }
 
